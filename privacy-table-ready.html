@@ -30,7 +30,7 @@
 
     <div class="app-label">TableReady</div>
     <h1>Privacy Policy</h1>
-    <p class="effective">Kiki Gadgets Ltd. &nbsp;|&nbsp; Effective Date: April 05, 2026</p>
+    <p class="effective">Kiki Gadgets Ltd. &nbsp;|&nbsp; Effective Date: April 26, 2026</p>
 
     <p>
       Kiki Gadgets Ltd. ("we", "our", or "us") operates the TableReady mobile application (the "App").
@@ -56,14 +56,15 @@
       <li>Device information: device type, operating system version, and app version.</li>
       <li>Authentication tokens for connected third-party services (e.g., Kroger) stored securely on your device using encrypted storage.</li>
 
-      <li>Crash reports and performance diagnostics via Firebase.</li>
+      <li>Crash reports, performance diagnostics, and aggregate product-usage analytics via Firebase Analytics.</li>
     </ul>
 
     <p><strong>c) Information from Third-Party Services</strong></p>
     <ul>
       <li>Google Sign-In / Apple Sign-In: name, email address, and profile photo from your connected account.</li>
       <li>Kroger API: store location data and cart interactions when you choose to connect a Kroger-family store account.</li>
-      <li>TheMealDB: publicly available recipe data for the Discover feature.</li>
+      <li>Spoonacular: recipe-search queries you enter in the Discover tab (e.g., cuisine, meal type, ingredients, dietary filters) are sent to Spoonacular to retrieve matching recipes.</li>
+      <li>Google Gemini AI: ingredient text and recipe URLs you import are sent to Google's Gemini API for parsing and ingredient normalization. Inputs are not used to train Google's models per the Gemini API Terms.</li>
       <li>RevenueCat: subscription status and purchase history for premium features.</li>
     </ul>
 
@@ -82,8 +83,8 @@
     <h2>3. How We Share Your Information</h2>
     <p>We do not sell your personal information. We may share your information only in the following circumstances:</p>
     <ul>
-      <li><strong>Service Providers:</strong> Firebase (Google LLC) for authentication, database, and storage; RevenueCat for subscription management.</li>
-      <li><strong>Third-Party Integrations:</strong> When you connect a Kroger account, relevant data is shared with that service to fulfil your grocery cart request.</li>
+      <li><strong>Service Providers:</strong> Firebase (Google LLC) for authentication, database, storage, and analytics; RevenueCat for subscription management; Spoonacular for recipe discovery; Google Gemini API for AI-assisted ingredient parsing. These providers process data on our behalf under their respective terms.</li>
+      <li><strong>Third-Party Integrations:</strong> When you connect a Kroger account, the items in your shopping list are shared with Kroger to populate your store cart.</li>
       <li><strong>Community Features:</strong> Approved recipes are displayed publicly within the App with an abbreviated name (e.g., "Drew N.") to protect your privacy.</li>
       <li><strong>Legal Requirements:</strong> We may disclose information if required by law, court order, or governmental authority.</li>
       <li><strong>Business Transfers:</strong> In the event of a merger, acquisition, or sale of assets, your information may be transferred as part of that transaction.</li>
