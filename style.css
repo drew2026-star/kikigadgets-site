@@ -249,6 +249,43 @@ nav a:hover { color: var(--primary); text-decoration: none; }
 
 .privacy-link:hover { color: var(--primary); }
 
+/* Coming Soon badge */
+.coming-soon {
+  display: inline-block;
+  font-size: 0.65rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  background: var(--accent);
+  color: #1e293b;
+  padding: 3px 8px;
+  border-radius: 50px;
+  vertical-align: middle;
+  margin-left: 8px;
+}
+
+/* Visible email in nav */
+.nav-email {
+  font-size: 0.8rem;
+  color: #94a3b8;
+  padding-left: 4px;
+}
+
+/* Visible email in about section */
+.contact-email {
+  font-size: 0.85rem;
+  color: #94a3b8;
+  margin-top: 12px;
+}
+
+.contact-email a {
+  color: var(--accent);
+}
+
+.contact-email a:hover {
+  color: white;
+}
+
 /* ---- ABOUT ---- */
 .about-section {
   background: var(--dark);
