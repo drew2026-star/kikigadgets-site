@@ -173,7 +173,7 @@ nav a:hover { color: var(--primary); text-decoration: none; }
   justify-content: center;
 }
 
-.tr-icon { background: #eff6ff; }
+.ml-icon { background: #eff6ff; }
 .cs-icon { background: #fef3c7; }
 
 .app-card h3 {
