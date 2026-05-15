@@ -417,8 +417,7 @@ a:hover { color: var(--terracotta); }
 .privacy a:hover { border-color: var(--terracotta); }
 .privacy hr { border: none; border-top: 1px solid var(--rule); margin: 40px 0; }
 .privacy strong { font-weight: 600; color: var(--ink); }
-.privacy > p:first-of-type::first-letter,
-.privacy-intro::first-letter {
+.privacy .effective + p::first-letter {
   font-family: 'Fraunces', serif;
   font-size: 4.2em; float: left; line-height: 0.85;
   margin: 6px 10px -4px 0; color: var(--terracotta);
