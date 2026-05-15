@@ -140,3 +140,7 @@ Acquisition block: Play Store button only (no App Store listing yet), privacy li
 Decision needed before the home page is wired up.
 
 **Chore Scramble content.** The Play Store fetch was truncated. During implementation, we'll need a more targeted fetch (or browser-based read) to pull the real description and feature list. If it can't be obtained cleanly, we fall back to the feature list already on the home card and the user's own words.
+
+## Implementation Status
+
+Implemented 2026-05-15. All five pages live with shared editorial system. Real app screenshots remain a follow-up task — currently using simulated UI mockups.
