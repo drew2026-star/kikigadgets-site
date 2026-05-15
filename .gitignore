@@ -1,0 +1,5 @@
+# macOS
+.DS_Store
+
+# Superpowers brainstorming artifacts (mockups, server state)
+.superpowers/
