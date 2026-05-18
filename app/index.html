@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Meal Lineup — Kiki Gadgets Ltd.</title>
+  <meta name="description" content="Meal Lineup — Smart weekly meal planning for families. Opening the app store…" />
+  <meta name="robots" content="noindex,follow" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..700;1,9..144,400..700&family=Spectral:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+  <script>
+    (function () {
+      var ua = (navigator.userAgent || '').toLowerCase();
+      var isAndroid = /android/.test(ua);
+      var isIOS = /iphone|ipad|ipod/.test(ua) || (/macintosh/.test(ua) && 'ontouchend' in document);
+      var androidUrl = 'https://play.google.com/store/apps/details?id=com.drewi.mealprep';
+      var iosUrl = 'https://apps.apple.com/us/app/meal-lineup-recipes-planner/id6766699144';
+      var desktopUrl = '/app-meal-lineup.html';
+      var target = isAndroid ? androidUrl : isIOS ? iosUrl : desktopUrl;
+      window.location.replace(target);
+    })();
+  </script>
+  <noscript>
+    <meta http-equiv="refresh" content="0; url=/app-meal-lineup.html">
+  </noscript>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      background: #1F3A2E;
+      color: #F4EEE3;
+      font-family: 'Spectral', Georgia, serif;
+      -webkit-font-smoothing: antialiased;
+    }
+    .bridge {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+      text-align: center;
+    }
+    .bridge-mark {
+      font-family: 'Fraunces', Georgia, serif;
+      font-weight: 500;
+      font-size: 1.75rem;
+      letter-spacing: 0.01em;
+      margin-bottom: 1rem;
+    }
+    .bridge-mark em {
+      font-style: italic;
+      color: #C5934D;
+    }
+    .bridge-status {
+      font-family: 'Spectral', Georgia, serif;
+      font-style: italic;
+      font-size: 1rem;
+      opacity: 0.75;
+      margin-bottom: 2rem;
+    }
+    .bridge-links {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .bridge-links a {
+      color: #F4EEE3;
+      text-decoration: none;
+      border: 1px solid rgba(244, 238, 227, 0.35);
+      padding: 0.6rem 1.1rem;
+      border-radius: 4px;
+      font-size: 0.95rem;
+      font-family: 'Spectral', Georgia, serif;
+      transition: border-color 0.15s ease;
+    }
+    .bridge-links a:hover {
+      border-color: #F4EEE3;
+    }
+    .bridge-footer {
+      margin-top: 3rem;
+      font-size: 0.85rem;
+      opacity: 0.55;
+      font-style: italic;
+    }
+  </style>
+</head>
+<body>
+
+<main class="bridge">
+  <div class="bridge-mark">Meal <em>Lineup</em></div>
+  <div class="bridge-status">Opening the app store…</div>
+  <div class="bridge-links">
+    <a href="https://apps.apple.com/us/app/meal-lineup-recipes-planner/id6766699144">App Store</a>
+    <a href="https://play.google.com/store/apps/details?id=com.drewi.mealprep">Google Play</a>
+    <a href="/app-meal-lineup.html">About Meal Lineup</a>
+  </div>
+  <div class="bridge-footer">Kiki Gadgets Ltd.</div>
+</main>
+
+</body>
+</html>
